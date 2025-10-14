@@ -23,7 +23,7 @@ To build consistency, improve problem-solving skills, and become stronger in DSA
 ---
 
 ## 🧠 What I'm Using
-- 🧩 **Languages:** C++ / Java / Python (choose yours)
+- 🧩 **Languages:**  Python 
 - ⚙️ **Platforms:** LeetCode, CodeStudio, GeeksForGeeks
 - 📝 **Tracking:** GitHub commits + daily logs
 
