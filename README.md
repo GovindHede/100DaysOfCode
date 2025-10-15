@@ -15,7 +15,7 @@ To build consistency, improve problem-solving skills, and become stronger in DSA
 | Day | Topic / Focus | Platform | Notes |
 |-----|----------------|-----------|--------|
 | 1 | Arrays Basics | LeetCode | Learned about array traversal and indexing |
-| 2 | Stack & Queue | CodeStudio | Practiced implementation problems |
+| 2 | Stack & Queue | gfg| Practiced implementation problems |
 | ... | ... | ... | ... |
 
 *(I’ll keep updating this table as I go!)*
