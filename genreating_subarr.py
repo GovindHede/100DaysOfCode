@@ -32,3 +32,66 @@ arr = [1, 2, 3, 4]
 print("All Non-empty Subarrays:")
 for sub in all_subarray(arr):
     print(sub)
+
+
+
+a = 2
+b=3
+print("a=",a,"b=",b)
+
+temp = a 
+a=b
+b = temp
+
+print("a=",a,"b=",b)
+
+#Find Closest to n and Divisible by m
+
+def closed_ele(n,m):
+    a = (n//m) *m
+    b= a+m
+    if abs(n-a) < abs(n-b):
+        return a
+    elif abs(n-a) > abs(n-b):
+        return b
+    else:
+        return a if abs(a) >abs(b) else b
+    
+print(closed_ele(13,4))
+print(closed_ele(-15,6))
+
+
+def dice_num(n):
+    if n ==1:
+        return 6
+    elif n==2:
+        return 5
+    elif n==3:
+        return 4
+    elif n==6:
+        return 1
+    elif n==4:
+        return 3
+    elif n==5:
+        return 2
+
+n=6
+print(dice_num(n))    
+
+def dice_oppo(n):
+    ans =7-n
+    return ans
+n=6
+print(dice_oppo(n))
+
+def nthterm(a1,a2,n):
+    nthTerm = a1
+    d = a2-a1
+    for i in range(1,n):
+        nthTerm +=d
+    return nthTerm
+
+a1=2
+a2 =3
+n=4
+print(nthterm(a1,a2,n))

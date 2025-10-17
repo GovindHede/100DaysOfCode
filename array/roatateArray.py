@@ -16,3 +16,12 @@ if __name__ == "__main__":
 # The function rotate_array takes an array and an integer k as input.
 # It calculates the effective rotation by taking k modulo the length of the array.
 # The array is then rotated in place by slicing it into two parts: the last k elements
+
+def rotate_arr(arr,d):
+    n=len(arr)
+    d=d%n
+    arr[:] =arr[-d:] + arr[:-d]
+    return arr
+arr = [1, 2, 3, 4, 5, 6, 7]
+rotate_arr(arr, 2)
+
