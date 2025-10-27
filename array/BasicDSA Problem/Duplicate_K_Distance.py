@@ -29,7 +29,7 @@ def Duplicate_k_Distance(arr,k):
             
     return False
 
-arr= [1, 2, 3, 4, 1, 2, 3, 4]
+arr=[10, 5, 3, 4, 3, 5, 6]
 k=3
 print("yes" if Duplicate_k_Distance(arr,k) else "No")
 
@@ -37,7 +37,7 @@ print("yes" if Duplicate_k_Distance(arr,k) else "No")
 def check_duplicate(arr,k):
     seen =set()
     for i in range(len(arr)):
-        if arr[i] == arr[j]:
+        if arr[i] in seen:
             return True
         
         seen.add(arr[i])
