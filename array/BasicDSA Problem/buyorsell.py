@@ -18,5 +18,5 @@ def buy_sell (price):
 
     return profit
 
-prices = [100, 180, 260, 310, 40, 535, 695]
-print(buy_sell(prices)) 
+
+
