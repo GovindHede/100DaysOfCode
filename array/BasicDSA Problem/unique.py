@@ -18,5 +18,26 @@ def unique_no(arr):
         result ^= num
     return result
 
-arr = [10, 7, 7, 3, 3, 10, 8]
+arr = [2, 3, 5, 4, 5, 3, 4]
 print(unique_no(arr))
+
+# Another answer *****************
+
+def findunique(arr):
+    n=len(arr)
+
+    for i in range(n):
+        count =0
+        
+        for j in range(n):
+
+            if arr[i] == arr[j]:
+                count +=1
+
+        if count ==1:
+            return arr[i]
+    
+    return -1
+
+arr = [2, 3, 5, 4, 5, 3, 4] 
+print(findunique(arr))
