@@ -27,4 +27,22 @@ def find_missing_num(arr):
     return -1
 
 arr= [1, 2, 3, 5]
-print(find_missing_num(arr))
+print(find_missing_num(arr)) 
+
+# [Naive Approach] Linear Search for Missing Number - O(n^2) 
+# Time and O(1) Space
+
+# [Expected Approach 1] Using Sum of n terms Formula - O(n) Time 
+# and O(1) Space 
+
+def missingNumber(arr):
+    n=len(arr)+1
+
+    totalSum = sum(arr)
+    
+    expSum = n * (n+1) //2  # n chi value 8 ahe n = len(arr)+1 varti dil ahe bg
+    
+    return expSum - totalSum
+
+arr= [8, 2, 4, 5, 3, 7, 1]
+print(missingNumber(arr))
