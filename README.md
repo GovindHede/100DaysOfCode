@@ -42,4 +42,4 @@ Learning in public keeps me accountable and motivated to grow every day 🚀
 
 ---
 
-⭐ If you’re also doing #100DaysOfCode, feel free to fork this repo and start coding ... ENJOY :)
+⭐ If you’re also doing #100DaysOfCode, feel free to fork this repo and start coding ... Easy :)
